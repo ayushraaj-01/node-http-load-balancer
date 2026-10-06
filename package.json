@@ -1,0 +1,24 @@
+{
+  "name": "load-balancer-node",
+  "version": "1.0.0",
+  "description": "Zero-dependency HTTP round-robin and weighted load balancer in Node.js",
+  "main": "balancer.js",
+  "scripts": {
+    "start:backends": "node backend.js all",
+    "start:balancer": "node balancer.js",
+    "test": "node test-client.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "load-balancer",
+    "reverse-proxy",
+    "round-robin",
+    "health-check",
+    "retry",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT"
+}
